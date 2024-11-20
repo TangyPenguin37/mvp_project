@@ -20,5 +20,16 @@ def getVideo():
     print("Video downloaded successfully")
 
 
+def diffuse(video):
+    # pix2pix
+    pass
+
+
+def splat(video):
+    pass
+
+
 if __name__ == "__main__":
     getVideo()
+    diffuse("video.mp4")
+    splat("video.mp4")
