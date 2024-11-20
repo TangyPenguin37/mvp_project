@@ -1,2 +1,6 @@
 *.mp4
 .vscode/*
+*.jpg
+*.jpeg
+*.png
+
