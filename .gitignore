@@ -1,6 +1,7 @@
-*.mp4
+# *.mp4
+# *.jpg
+# *.jpeg
+# *.png
 .vscode/*
-*.jpg
-*.jpeg
-*.png
-
+.venv/*
+**/database.db
