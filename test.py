@@ -22,8 +22,10 @@ def getVideo():
 
 def diffuse(video):
     # pix2pix
-    pass
-
+    img=""
+    prompt=""
+    os.system(f"aimg edit --prompt '{prompt}' {img}")    
+    
 
 def splat(video):
     pass
