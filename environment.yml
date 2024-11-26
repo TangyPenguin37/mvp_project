@@ -1,0 +1,22 @@
+name: gaussian_splatting_with_diffusion
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - cudatoolkit=11.6
+  - plyfile
+  - python=3.10.13
+  - pip=22.3.1
+  - pytorch=1.12.1
+  - torchaudio=0.12.1
+  - torchvision=0.13.1
+  - tqdm
+  - ffmpeg
+  - pip:
+      - submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
+      - submodules/gaussian-splatting/submodules/simple-knn
+      - submodules/gaussian-splatting/submodules/fused-ssim
+      - imaginAIry
+      - opencv-python
+      - joblib
