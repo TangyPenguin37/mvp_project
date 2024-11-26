@@ -43,13 +43,13 @@ def split(fps=8):
     print("Video split successfully!")
 
 def splat(video):
-    os.system(f"python {Path('/gaussian-splatting/convert.py')} -s {video} --resize")
+    os.system(f"python {Path('./submodules/gaussian-splatting/convert.py')} -s .\\{video}\ --resize")
     # os.system(f"python {Path('/gaussian-splatting/train.py')} -s {video}")
 
 
 if __name__ == "__main__": 
     # getVideo()
-    split()
-    # video_relative_path=pathlib.Path("./input/video")
-    # splat(video_relative_path)
+    # split()
+    video_relative_path=Path("./input/ship")
+    splat(video_relative_path)
     # diffuse("video.mp4")
