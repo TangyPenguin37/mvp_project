@@ -1,0 +1,11 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/local/lib/python3.10/dist-packages/cmake/data/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:16 (project)"
+    message: |
+      The system is: Linux - 6.1.85+ - x86_64
+...

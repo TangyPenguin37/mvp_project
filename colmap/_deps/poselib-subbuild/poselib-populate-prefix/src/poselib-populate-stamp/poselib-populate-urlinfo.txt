@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/download-poselib-populate.cmake;COMMAND;/usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/verify-poselib-populate.cmake;COMMAND;/usr/local/lib/python3.10/dist-packages/cmake/data/bin/cmake;-DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE;-P;/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/extract-poselib-populate.cmake
+source_dir=/content/colmap/build/colmap/build/_deps/poselib-src
+work_dir=/content/colmap/build/colmap/build/_deps
+url(s)=https://github.com/PoseLib/PoseLib/archive/8028473d92c9347794a0e3d3541863b5cbb15743.zip
+hash=SHA256=20ff75d14c839dcab3d38fb51503c47088898f394b812472a758ec17720a54c2
+      no_extract=
+

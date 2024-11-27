@@ -1,0 +1,1 @@
+-I/content/colmap/build/colmap/src -isystem "/usr/local/cuda/targets/x86_64-linux/include"

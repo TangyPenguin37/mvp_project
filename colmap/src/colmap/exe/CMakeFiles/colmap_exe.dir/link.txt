@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcolmap_exe.a CMakeFiles/colmap_exe.dir/feature.cc.o CMakeFiles/colmap_exe.dir/sfm.cc.o CMakeFiles/colmap_exe.dir/model.cc.o
+/usr/bin/ranlib libcolmap_exe.a

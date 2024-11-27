@@ -1,0 +1,3 @@
+/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/poselib-populate.dir
+/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/edit_cache.dir
+/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/rebuild_cache.dir

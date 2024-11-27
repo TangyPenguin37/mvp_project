@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/poselib-populate"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/poselib-populate.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/CMakeFiles/poselib-populate-complete.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-build.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-configure.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-download.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-install.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-mkdir.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-patch.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-test.rule"
+		},
+		{
+			"file" : "/content/colmap/build/colmap/build/_deps/poselib-subbuild/poselib-populate-prefix/src/poselib-populate-stamp/poselib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"poselib-populate"
+		],
+		"name" : "poselib-populate"
+	}
+}

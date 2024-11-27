@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcolmap_feature_types.a CMakeFiles/colmap_feature_types.dir/types.cc.o
+/usr/bin/ranlib libcolmap_feature_types.a
