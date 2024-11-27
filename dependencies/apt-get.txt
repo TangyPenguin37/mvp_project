@@ -1,0 +1,14 @@
+nvidia-cuda-toolkit
+nvidia-cuda-toolkit-gcc
+libeigen3-dev
+libflann-dev
+libfreeimage-dev
+libmetis-dev
+libgoogle-glog-dev
+libgtest-dev
+libgmock-dev
+libglew-dev
+qtbase5-dev
+libqt5opengl5-dev
+libcgal-dev
+libceres-dev
