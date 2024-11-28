@@ -1,6 +1,6 @@
 albumentations
 datasets
-diffusers
+diffusers[torch]
 einops
 ffpb
 gradio
