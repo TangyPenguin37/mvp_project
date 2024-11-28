@@ -1,0 +1,33 @@
+albumentations
+datasets
+diffusers[torch]
+einops
+ffpb
+gradio
+imageio-ffmpeg
+imageio
+invisible-watermark
+kornia
+numpy
+omegaconf
+opencv-python
+plyfile
+pudb
+pytorch-lightning
+seaborn
+streamlit
+test-tube
+torch-fidelity
+torch
+torchaudio
+torchmetrics
+torchvision
+transformers
+
+CLIP @ git+https://github.com/openai/CLIP.git@main
+k-diffusion @ git+https://github.com/crowsonkb/k-diffusion.git
+taming-transformers @ git+https://github.com/CompVis/taming-transformers.git@master
+
+./mvp_project/submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
+./mvp_project/submodules/gaussian-splatting/submodules/simple-knn
+./mvp_project/submodules/gaussian-splatting/submodules/fused-ssim
