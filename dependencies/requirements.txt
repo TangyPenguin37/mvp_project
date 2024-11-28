@@ -24,9 +24,9 @@ torchmetrics
 torchvision
 transformers
 
-git+https://github.com/openai/CLIP.git@main
-git+https://github.com/crowsonkb/k-diffusion.git
-git+https://github.com/CompVis/taming-transformers.git@master
+CLIP @ git+https://github.com/openai/CLIP.git@main
+k-diffusion @ git+https://github.com/crowsonkb/k-diffusion.git
+taming-transformers @ git+https://github.com/CompVis/taming-transformers.git@master
 
 ./mvp_project/submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
 ./mvp_project/submodules/gaussian-splatting/submodules/simple-knn
