@@ -27,13 +27,6 @@ def getVideo():
 
     print("Video downloaded successfully")
 
-
-def diffuse():
-    # pix2pix
-    img=""
-    prompt=""
-    os.system(f"aimg edit --prompt '{prompt}' {img}")    
-    
 def split(fps=8):
     folder = Path(FILENAME).stem
     command = f"ffpb -i {FILENAME} -qscale:v 1 -qmin 1 -vf fps={fps} ./input/{folder}/%04d.jpg"
@@ -46,6 +39,12 @@ def splat(video):
     os.system(f"python {Path('./submodules/gaussian-splatting/convert.py')} -s .\\{video}\ --resize")
     # os.system(f"python {Path('/gaussian-splatting/train.py')} -s {video}")
 
+def diffuse():
+    # pix2pix
+    img=""
+    prompt=""
+    os.system(f"aimg edit --prompt '{prompt}' {img}")    
+    
 
 if __name__ == "__main__": 
     # getVideo()
