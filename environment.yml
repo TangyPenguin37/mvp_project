@@ -1,49 +1,24 @@
-name: gaussian_splatting_with_diffusion
+name: gaussian_splatting
 channels:
   - pytorch
   - conda-forge
   - defaults
-  - nvidia
-
 dependencies:
   - cudatoolkit=11.6
   - plyfile
-  - python=3.10.13
+  - python=3.7.13
   - pip=22.3.1
-  - pytorch=1.13.1
-  - torchaudio=0.13.1
-  - torchvision=0.13.1
   - tqdm
-  - ffmpeg
   - pip:
-      - albumentations
-      - datasets
-      - diffusers
-      - einops
+      - diffusers[torch]
       - ffpb
-      - gradio
-      - imageio-ffmpeg
-      - imageio
-      - invisible-watermark
-      - kornia
-      - numpy
-      - omegaconf
-      - opencv-python
       - plyfile
-      - pudb
-      - pytorch-lightning
-      - seaborn
-      - streamlit
-      - test-tube
-      - torch-fidelity
       - torch
       - torchaudio
       - torchmetrics
       - torchvision
-      - transformers
-      - git+https://github.com/openai/CLIP.git@main
-      - git+https://github.com/crowsonkb/k-diffusion.git
-      - git+https://github.com/CompVis/taming-transformers.git@master
-      - ./mvp_project/submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
-      - ./mvp_project/submodules/gaussian-splatting/submodules/simple-knn
-      - ./mvp_project/submodules/gaussian-splatting/submodules/fused-ssim
+      - submodules/diff-gaussian-rasterization
+      - submodules/simple-knn
+      - submodules/fused-ssim
+      - opencv-python
+      - joblib
