@@ -3,8 +3,9 @@ channels:
   - pytorch
   - conda-forge
   - defaults
+
 dependencies:
-  - cudatoolkit=11.6
+  - cudatoolkit-dev
   - plyfile
   - python
   - pip=22.3.1
