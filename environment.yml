@@ -1,4 +1,4 @@
-name: gaussian_splatting
+name: gaussian_splatting_with_diffusion
 channels:
   - pytorch
   - conda-forge
@@ -17,8 +17,8 @@ dependencies:
       - torchaudio
       - torchmetrics
       - torchvision
-      - submodules/diff-gaussian-rasterization
-      - submodules/simple-knn
-      - submodules/fused-ssim
+      - submodules/gaussian-splatting/submodules/diff-gaussian-rasterization
+      - submodules/gaussian-splatting/submodules/simple-knn
+      - submodules/gaussian-splatting/submodules/fused-ssim
       - opencv-python
       - joblib
