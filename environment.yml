@@ -6,7 +6,7 @@ channels:
 dependencies:
   - cudatoolkit=11.6
   - plyfile
-  - python=3.7.13
+  - python
   - pip=22.3.1
   - tqdm
   - pip:
