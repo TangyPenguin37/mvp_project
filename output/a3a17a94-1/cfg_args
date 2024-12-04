@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/content/mvp_project/input/south-building', model_path='./output/a3a17a94-1', images='images_edited2', depths='', resolution=-1, white_background=False, train_test_exp=False, data_device='cuda', eval=False)
