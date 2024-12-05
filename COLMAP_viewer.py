@@ -1,3 +1,6 @@
+# This file can be used to visualize the output from COLMAP, to ensure that the camera poses are as expected.
+# Built on top of the viser library using the "viser" package, using example code from the viser documentation.
+
 import random
 import time
 from pathlib import Path
