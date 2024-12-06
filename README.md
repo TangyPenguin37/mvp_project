@@ -4,9 +4,9 @@ This repository contains the our code for our **Part II Machine Visual Perceptio
 
 ## Code Structure
 
-**The main code, along with all instructions on how to run it, can be found in the `.ipynb` file, and can be run in Google Colab [here](LINK).**
+**The main code, along with all instructions on how to run it, can be found in the `.ipynb` file, and can be run in Google Colab [here](https://colab.research.google.com/github/TangyPenguin37/mvp_project/blob/main/machine_visual_perception_group_5.ipynb).**
 
-_Some examples of the results of our code can be found on Google Drive [here](LINK)._
+_A few examples of the results of our code can be found on Google Drive [here](https://drive.google.com/drive/folders/18jR6P07-_Ohw8wGwnlORTLNYHxAZVMOg?usp=sharing)._
 
 The `master` branch contains all our code, as well as the data we used for our experiments. The `colab` branch, meanwhile, contains a minimal version of all the necessary code to be cloned in the notebook, saving time and space.
 
