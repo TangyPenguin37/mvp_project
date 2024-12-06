@@ -1,1 +1,0 @@
-Namespace(sh_degree=3, source_path='/content/content/input/shipwreck', model_path='./output/e580f676-2', images='images', depths='', resolution=-1, white_background=False, train_test_exp=False, data_device='cuda', eval=False)
